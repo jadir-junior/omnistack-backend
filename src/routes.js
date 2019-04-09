@@ -17,8 +17,4 @@ routes.post(
   FileController.store
 );
 
-routes.get('/boxes', (req, res) => {
-  return res.send('Funcionando!');
-});
-
 module.exports = routes;
